@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowDesk — Work Smarter, Not Harder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">Flow<span class="logo-accent">Desk</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#cta" class="btn btn-sm">Get Started</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 1. Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-text" data-animate="fade-up">
+        <span class="badge">🚀 Now in public beta</span>
+        <h1>Organize your work.<br>Own your <span class="accent">time</span>.</h1>
+        <p>FlowDesk brings tasks, docs, and team communication into one beautiful workspace. Stop juggling apps — start flowing.</p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary">Start Free</a>
+          <a href="#how-it-works" class="btn btn-outline">See how it works</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>12k+</strong><span>Teams</span></div>
+          <div><strong>99.9%</strong><span>Uptime</span></div>
+          <div><strong>4.9★</strong><span>Rating</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" data-animate="fade-up" data-delay="200">
+        <div class="hero-card">
+          <div class="card-header">
+            <div class="card-dots"><span></span><span></span><span></span></div>
+          </div>
+          <div class="card-body">
+            <div class="card-row"><div class="card-bar" style="width:80%"></div></div>
+            <div class="card-row"><div class="card-bar" style="width:60%"></div></div>
+            <div class="card-row"><div class="card-bar" style="width:90%"></div></div>
+            <div class="card-row"><div class="card-bar" style="width:45%"></div></div>
+          </div>
+        </div>
+        <div class="hero-card card-float">
+          <div class="float-icon">✓</div>
+          <div class="float-text">Sprint completed<br>2 hours ahead</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="var(--bg)"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- 2. Features -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Features</span>
+        <h2>Everything you need,<br>nothing you don't</h2>
+        <p>Four pillars of productive teamwork.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" data-animate="fade-up">
+          <div class="feature-icon">📋</div>
+          <h3>Smart Tasks</h3>
+          <p>AI-prioritized task boards that adapt to your workflow. Kanban, list, or timeline — your call.</p>
+        </div>
+        <div class="feature-card" data-animate="fade-up" data-delay="100">
+          <div class="feature-icon">📝</div>
+          <h3>Live Docs</h3>
+          <p>Collaborative documents with real-time editing. No more "final_v3_REALLY_FINAL.docx".</p>
+        </div>
+        <div class="feature-card" data-animate="fade-up" data-delay="200">
+          <div class="feature-icon">💬</div>
+          <h3>Team Chat</h3>
+          <p>Threaded conversations tied directly to tasks. Context lives where it belongs.</p>
+        </div>
+        <div class="feature-card" data-animate="fade-up" data-delay="300">
+          <div class="feature-icon">📊</div>
+          <h3>Insights</h3>
+          <p>Automated sprint reports and workload analytics. See bottlenecks before they bite.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. How It Works -->
+  <section class="section how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">How It Works</span>
+        <h2>Up and running<br>in three steps</h2>
+      </div>
+      <div class="steps">
+        <div class="step" data-animate="fade-up">
+          <div class="step-number">01</div>
+          <h3>Create your workspace</h3>
+          <p>Sign up, name your org, invite your team. Takes less than 60 seconds.</p>
+        </div>
+        <div class="step" data-animate="fade-up" data-delay="150">
+          <div class="step-number">02</div>
+          <h3>Set up your first project</h3>
+          <p>Pick a template or start fresh. Import from Trello, Asana, or Notion in one click.</p>
+        </div>
+        <div class="step" data-animate="fade-up" data-delay="300">
+          <div class="step-number">03</div>
+          <h3>Flow</h3>
+          <p>Assign tasks, set deadlines, track progress. We'll handle the rest — reminders, reports, and nudges.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Testimonials -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Testimonials</span>
+        <h2>Loved by teams<br>who ship</h2>
+      </div>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial" data-animate="fade-up">
+          <p>"We replaced three tools with FlowDesk. Our team actually <em>enjoys</em> stand-ups now."</p>
+          <cite>
+            <span class="testimonial-avatar">AK</span>
+            <div>
+              <strong>Anna Kowalski</strong>
+              <span>Engineering Lead, Brightline</span>
+            </div>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial" data-animate="fade-up" data-delay="150">
+          <p>"The AI task prioritization is scary good. We shipped 40% more features last quarter."</p>
+          <cite>
+            <span class="testimonial-avatar">MR</span>
+            <div>
+              <strong>Marcus Rivera</strong>
+              <span>PM, NovaTech</span>
+            </div>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial" data-animate="fade-up" data-delay="300">
+          <p>"Cleanest UX I've seen in project management. My designers stopped complaining."</p>
+          <cite>
+            <span class="testimonial-avatar">SJ</span>
+            <div>
+              <strong>Sara Johansson</strong>
+              <span>CTO, Form & Function</span>
+            </div>
+          </cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Pricing -->
+  <section class="section pricing" id="pricing">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Pricing</span>
+        <h2>Simple pricing,<br>real value</h2>
+        <p>Start free. Upgrade when you're ready.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card" data-animate="fade-up">
+          <div class="pricing-header">
+            <h3>Free</h3>
+            <div class="price"><span>$0</span><span>/month</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>Up to 5 team members</li>
+            <li>3 projects</li>
+            <li>Basic task boards</li>
+            <li>1 GB storage</li>
+          </ul>
+          <a href="#" class="btn btn-outline btn-block">Get Started</a>
+        </div>
+        <div class="pricing-card featured" data-animate="fade-up" data-delay="150">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-header">
+            <h3>Pro</h3>
+            <div class="price"><span>$12</span><span>/user/month</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>Unlimited members</li>
+            <li>Unlimited projects</li>
+            <li>AI task prioritization</li>
+            <li>Live docs & chat</li>
+            <li>50 GB storage</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block">Start Free Trial</a>
+        </div>
+        <div class="pricing-card" data-animate="fade-up" data-delay="300">
+          <div class="pricing-header">
+            <h3>Enterprise</h3>
+            <div class="price"><span>$39</span><span>/user/month</span></div>
+          </div>
+          <ul class="pricing-features">
+            <li>Everything in Pro</li>
+            <li>SSO & advanced security</li>
+            <li>Custom workflows</li>
+            <li>Dedicated account manager</li>
+            <li>Unlimited storage</li>
+            <li>SLA guarantee</li>
+          </ul>
+          <a href="#" class="btn btn-outline btn-block">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FAQ -->
+  <section class="section faq" id="faq">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">FAQ</span>
+        <h2>Got questions?</h2>
+      </div>
+      <div class="faq-list" data-animate="fade-up">
+        <details class="faq-item">
+          <summary>Can I import data from other tools?</summary>
+          <p>Yes! We support one-click imports from Trello, Asana, Notion, Jira, and Monday. Your boards, tasks, and comments come with you.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Is there a free trial for Pro?</summary>
+          <p>Absolutely. Every new account gets a 14-day Pro trial automatically. No credit card required.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What happens when my trial ends?</summary>
+          <p>You'll be moved to the Free plan. No data is lost — you just lose access to Pro features until you upgrade.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you offer discounts for nonprofits or startups?</summary>
+          <p>Yes — 50% off Pro for verified nonprofits and startups under 2 years old. Reach out to our sales team.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How do I cancel?</summary>
+          <p>One click in Settings. No dark patterns, no retention emails, no guilt trips. We respect your choice.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CTA -->
+  <section class="section cta" id="cta">
+    <div class="container">
+      <div class="cta-content" data-animate="fade-up">
+        <h2>Ready to stop<br>juggling and start <span class="accent">flowing</span>?</h2>
+        <p>Join 12,000+ teams who chose focus over chaos. Free forever — no credit card needed.</p>
+        <form class="cta-form" id="ctaForm">
+          <input type="email" placeholder="you@company.com" required aria-label="Email address">
+          <button type="submit" class="btn btn-primary">Get Started Free</button>
+        </form>
+        <p class="cta-note">Free plan includes 5 members & 3 projects. Upgrade anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <a href="#hero" class="logo">Flow<span class="logo-accent">Desk</span></a>
+        <p>Work smarter. Ship faster. Stay in flow.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Twitter</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 FlowDesk. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
